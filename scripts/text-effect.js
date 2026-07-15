@@ -13,8 +13,8 @@ function setText() {
 }
 
 function assignText() {
-  if (firstPixelatedChar === 0 && lastPixelatedChar < textboxString.length) {
-    lastPixelatedChar = ++;
+  if (firstPixelatedChar === 0 && lastPixelatedChar === textboxString.length) {
+    lastPixelatedChar++;
     setText();
     setTimeout(assignText, animationDelay);
   } else if (firstPixelatedChar === 0 && lastPixelatedChar < textboxString.length + 1) {
