@@ -35,8 +35,6 @@ function assignText() {
     setText();
     setTimeout(assignText, letterDelay);
   }
-
-  console.log(`${firstPixelatedChar}--${lastPixelatedChar}`);
 }
 
 setTimeout(assignText, letterDelay)
