@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Geist';
+  cursor: crosshair;
+}
+
+body {
+  background-image: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#textbox {
+  font-family: 'Geist';
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+  user-select: none;
+}
+
+#pixelated {
+  font-family: 'Geist Pixel';
+  position: relative;
+  font-weight: 700;
+}
